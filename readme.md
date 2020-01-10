@@ -8,7 +8,7 @@ URL: http://g4e9.desafiolab.com/D-Axn/
 	Usuario: admin_Daxn20
 	Contraseña: Daxn_2020
 
-#### UBase de Datos
+#### Base de Datos
 	Base de Datos y Usuario: daxn3
 	Contraseña: daxn3_23579_@#$%&?
 
@@ -37,7 +37,7 @@ URL: http://g4e9.desafiolab.com/D-Axn/
 Nota: Las imágenes sí están optimizadas, gtmetrix reclama otro formato para mayor compresión pero éste no está disponible en el plugin gratuito.
 
 ### SEO
-	- Instalación plugin Yoast SEO
+  - Instalación plugin Yoast SEO
   - Edición de entradas según recomendaciones SEO
 
 ![](img/SEO_D-Axn.jpg)
