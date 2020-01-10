@@ -1,0 +1,16 @@
+// Estilos pagina Inicio
+.SectionContact {
+  background-image: url('../images/background-form.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 1rem;
+}
+
+.sectionProgramas {
+  background-color: $ultralight-gray;
+  &__epigraph{
+    font-style: italic;
+    line-height: 1.7;
+  }
+}

@@ -1,0 +1,40 @@
+// Estilos de Header en página Inicio
+.headerInicio {
+  &____slogan {
+    color: $dark-gray;
+    width: 70%;
+  }
+  &__jumbotron {
+    background-image: url('../images/foto-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+  }
+}
+
+
+// Estilos de Header en página Programas
+.headerProgramas {
+  background-image: url('../images/program-camino-guerrero-xl2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  height: 650px;
+}
+
+
+@media (max-width: 475px) {
+  .headerInicio__logo {
+    width: 80%;
+   }
+  h1 {
+    font-size: $large;
+    line-height: 1.6;
+  }
+  .headerInicio__slogan {
+    margin-top: 2rem;
+  }
+  .headerInicio img {
+    width: 80%;
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap');
+
+h1 {
+  font-family: $Open-Sans;
+  font-weight: $regular;
+  font-size: $xx-large;
+  letter-spacing: 1px;
+  color: $dark-gray;
+}
+
+h2 {
+  font-family: $Open-Sans;
+  font-weight: $regular;
+  font-size: $xxx-large;
+  color: $main-blue;;
+}
+
+h3 {
+  font-family: $Open-Sans;
+  font-weight: $regular;
+  font-size: $x-large;
+  color: $main-blue;
+}
+
+h4 {
+  font-family: $Open-Sans;
+  font-weight: $semi-bold;
+  font-size: $large;
+  color: $main-blue;
+}
+
+h5 {
+  font-family: $Open-Sans;
+  font-weight: $regular;
+  font-size: $small;
+  color: $dark-gray;
+}
+
+p {
+  font-family: $Open-Sans;
+  font-weight: $regular;
+  font-size: $medium;
+  color: $dark-gray;
+}

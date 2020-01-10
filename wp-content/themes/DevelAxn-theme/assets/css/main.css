@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap");
+::placeholder {
+  color: #666666;
+  font-size: 0.875rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove possible quote marks (") from <q>, <blockquote>. */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+/* Remove annoying border on linked images. */
+a img {
+	border: none;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.625rem;
+  letter-spacing: 1px;
+  color: #666666;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 2.25rem;
+  color: #3366cc;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #3366cc;
+}
+
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: #3366cc;
+}
+
+h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #666666;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #666666;
+}
+
+.SectionTop {
+  background-color: #2952a3;
+}
+
+.navbar {
+  margin-top: 2rem;
+}
+
+.headerInicio____slogan {
+  color: #666666;
+  width: 70%;
+}
+.headerInicio__jumbotron {
+  background-image: url("../images/foto-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+.headerProgramas {
+  background-image: url("../images/program-camino-guerrero-xl2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  height: 650px;
+}
+
+@media (max-width: 576px) {
+    .SectionHeader__logo {
+    width: 74%;
+    }
+
+      h1 {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    }
+
+    .SectionHeader__slogan {
+    margin-top: 2rem;
+    }
+
+    .headerInicio img {
+         max-width: 80%;
+    }
+}
+.nobull {
+  list-style-type: none;
+}
+
+@media (max-width: 576px) {
+  ul {
+    font-size: 0.875rem;
+    line-height: 1.6;
+  }
+}
+.btn-primary {
+  color: #ffffff;
+  background-color: #3366cc;
+  border-color: #3366cc;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.btn-primary:hover {
+  color: #3366cc;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: #3366cc;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  color: #3366cc;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: #3366cc;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #ffffff;
+  background-color: #3366cc;
+  border-color: #3366cc;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+  color: #ffffff;
+  background-color: #3366cc;
+  border-color: #3366cc;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.btn-outline-primary {
+  color: #3366cc;
+  border-color: #3366cc;
+}
+
+.btn-outline-primary:hover {
+  color: #ffffff;
+  background-color: #3366cc;
+  border-color: #3366cc;
+}
+
+.btn-outline-primary:focus, .btn-outline-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+  color: #3366cc;
+  background-color: transparent;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
+  color: #ffffff;
+  background-color: #3366cc;
+  border-color: #3366cc;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.SectionContact {
+  background-image: url("../images/background-form.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  padding-bottom: 1rem;
+}
+
+.sectionProgramas {
+  background-color: #f6f6f6;
+}
+.sectionProgramas__epigraph {
+  font-style: italic;
+  line-height: 1.7;
+}
+
+.SectionPrograma__item {
+  margin-left: 1rem;
+}
+
+.Section-GotoBlog {
+  color: #666666;
+}
+
+.Section-Blog__title {
+  padding-top: 10rem;
+}
+
+.sectionCustomers__title-xxxl {
+  padding-top: 3rem;
+}
+
+@media only screen and (max-width: 575px) {
+    .headerInicio img {
+         max-width: 80%;
+    }
+    #Capa_1 {
+      max-width: 100%;
+    }
+}

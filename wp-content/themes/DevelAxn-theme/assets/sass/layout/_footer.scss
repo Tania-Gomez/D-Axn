@@ -1,0 +1,10 @@
+.nobull {
+  list-style-type: none;
+}
+
+@media (max-width: 576px) {
+  ul {
+    font-size: $small;
+    line-height: 1.6;
+  }
+}
